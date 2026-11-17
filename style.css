@@ -6,3 +6,19 @@
            heigth:40px;}
 p{ background-color: drak gray;
   color: white; }
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+}
+@keyframes myAnimation {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+
+
+
